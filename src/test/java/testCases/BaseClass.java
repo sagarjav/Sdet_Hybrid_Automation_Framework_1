@@ -41,7 +41,8 @@ import org.testng.annotations.Parameters;
 			case "chrome":  driver=new ChromeDriver ();break;
 			case "edge":  driver=new EdgeDriver ();break;
 			case "firefox":  driver=new FirefoxDriver ();break;
-			default: System.out.println("Invalid browser name.....");return;
+			default: System.out.println("Invalid browser name.....");
+			return;
 		
 		}
 		
